@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: none;
+}
+
+body{
+    box-sizing: border-box;
+    background: #edb346;
+    animation: color 15s infinite linear;
+    text-align: center;
+    padding: 2em;
+}
+
+.container{
+    width: 60vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #a8a29e;
+    border: 2px solid black;
+    border-radius: 2rem;
+    text-align: center;
+    margin: auto;
+}
+
+#date-of-birth, #lucky-number, #check-number, #text-output{
+    width: 30vw;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px white;
+}
+
+#text-output{
+    display: none;
+    text-align: center;
+    background-color: #94a3b8;
+    color: #1c1917;
+    font-weight: bolder;
+}
+
+
+
+@keyframes color {
+    0% {
+      background: #c084fc
+    }
+    20% {
+      background: #f87171;
+    }
+    40% {
+      background: #b8cc33;
+    }
+    60% {
+      background: #fcca00;
+    }
+    80% {
+      background: #33cc36;
+    }
+    100% {
+      background: #818cf8;
+    }
+  }
